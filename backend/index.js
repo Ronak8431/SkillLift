@@ -21,7 +21,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://skilllift-1-yb8u.onrender.com",
     credentials: true,
   })
 );
